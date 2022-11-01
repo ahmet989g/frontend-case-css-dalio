@@ -1,5 +1,5 @@
 <template>
-    <div class="client-comment mb-20">
+    <section class="client-comment mb-20">
         <h2 class="mb-10 page-heading">What say happy clients</h2>
         <swiper
             :slides-per-view="1.8"
@@ -115,7 +115,7 @@
                 </div>
             </swiper-slide>
         </swiper>
-    </div>
+    </section>
 </template>
 <script>
   import { Swiper, SwiperSlide } from 'swiper/vue';
